@@ -1,3 +1,14 @@
+This fork merges the following PRs into the `merge-fixes` branch:
+
+- [Fix #2871 - Resolve blank map when running compiled with latest cordova-android (which uses AGP 4.1.3)](https://github.com/mapsplugin/cordova-plugin-googlemaps/pull/2872).
+- [FIX #2886 - Custom markers not working for cordova-android 10+](https://github.com/mapsplugin/cordova-plugin-googlemaps/pull/2887).
+
+The markers will not work if you use the Cordova local development server.
+
+Install with:
+
+`npm i https://github.com/SoftwareAndOutsourcing/cordova-plugin-googlemaps.git#merge-fixes --save`
+
 # Cordova GoogleMaps plugin for Android, iOS and Browser v2.7.1
 
 | Download | Build test (multiple_maps branch)|
